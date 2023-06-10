@@ -1,0 +1,150 @@
+
+    /* Reset some default styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+      color: rgb(79, 83, 82);
+      font-family: "DM Mono", monospace
+    }
+
+    /* Main container */
+    .container {
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Section styles */
+    section {
+      margin-bottom: 40px;
+    }
+
+    .span{
+      margin:40px;
+      border-bottom: 1px solid grey;
+    }
+    /* Header */
+    header {
+      text-align: left;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 10px;
+      font-family: "Inter-BlackItalic", "Inter", sans-serif;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #777;
+    }
+
+
+    span{
+      margin-bottom:2px;
+    }
+
+    /* About section */
+    .about {
+      text-align: left;
+      margin-bottom: 40px;
+    }
+
+    .about img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .about h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+      font-style:italic;
+    }
+
+    .about p {
+      font-size: 18px;
+      color: #777;
+    }
+
+    /* Projects section */
+    .projects {
+      text-align: left;
+      margin-bottom: 40px;
+    }
+
+    .projects h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+      font-family: "Inter-BlackItalic", "Inter", sans-serif;
+      font-style:italic;
+    }
+
+    .projects .project {
+      display: inline-block;
+      width: 300px;
+      padding: 20px;
+      margin: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+    }
+
+    .projects .project h3 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .projects .project p {
+      font-size: 16px;
+      color: #777;
+    }
+
+    /* Contact section */
+    .contact {
+      text-align: left;
+    }
+
+    .contact h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 20px;
+      font-style:italic;
+    }
+
+    .contact p {
+      font-size: 18px;
+      color: #777;
+    }
+
+    .contact .social-icons {
+      margin-top: 20px;
+    }
+
+    .contact .social-icons a {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      background-color: #333;
+      color: #fff;
+      font-size: 24px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      text-align: right;
+      color: #777;
+      margin-top: 40px;
+    }

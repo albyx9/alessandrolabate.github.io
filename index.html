@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Alessandro Labate | Home</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Il mio sito personale">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <meta name="author" content="Alessandro Labate">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/main.css"></script>
-    <!-- <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16"> -->
+  <title>Alessandro Labate | My Personal Website</title>
+  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="My personal website">
+  <meta name="keywords" content="HTML, CSS, JavaScript, CV, Data Engineer">
+  <meta name="author" content="ANL">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="navbar-header" id="menubar">
-        <a class="iniziali" href="index.html">AL</a>
-        <a href="contacts.html"><b class="num-head">4 &bull; </b>Contacts</a>
-        <a href="projects.html"><b class="num-head">3 &bull; </b>Projects</a>
-        <a href="blog.html"><b class="num-head">2 &bull; </b>Blog</a>
-        <a  class="active" href="#"><b class="num-head">1 &bull; </b>Home</a>
+  <div class="container">
+    <header>
+      <h1>Alessandro Labate</h1>
+      <p>Data Engineer | Web Developer</p>
+    </header>
+
+    <section class="about">
+      <img src="profile.jpg" alt="Profile Picture">
+      <h2>About Me</h2>
+      <p>I'm a data engineer and a passionate web developer. I love exploring the latest web technologies and staying up to date with industry trends. When I'm not working, you can find me exploring the great outdoors, reading a book or playing a guitar.
+      </p><br/>
+      <i class="fa-solid fa-location-dot"></i> Pisa, IT
+    </section>
+    <div class="span"></div>
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>This is the description of my first project. It showcases my skills in web development.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>This is the description of my second project. It demonstrates my ability to create responsive designs.</p>
+      </div>
+    </section>
+    <div class="span"></div>
+
+    <section class="projects">
+    <h2>Blog</h2>
+    <div class="blog">
+      <h3>Blog Area</h3>
+      <p>This is my totally random blog<a href="#" style="text-decoration:none">...</a></p>
     </div>
-    <div class="main"> 
-        <h2>Hello, World</h2>
-        <img id="imgprofilo" alt="faccia" src="img/fotodime.jfif">
-    </div>
+  </section>
+  <div class="span"></div>
+    
+  <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out to me if you have any questions or opportunities.</p>
+      <div class="social-icons">
+        <a href="https://twitter.com/mytwitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://linkedin.com/in/mylinkedin"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:contact@example.com"><i class="fa fa-envelope"></i></a>
+        <a href="mailto:contact@example.com"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </section>
+    <div class="span"></div>
+
+    <footer>
+      &copy;2023 Alessandro Labate
+    </footer>
+  </div>
 </body>
-    </html>
+</html>

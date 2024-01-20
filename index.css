@@ -141,6 +141,9 @@
       line-height: 40px;
       text-decoration: none;
     }
+    #cv {
+      color: #777;
+    }
 
     /* Footer */
     footer {
